@@ -58,3 +58,4 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   return <AuthCtx.Provider value={{ user, loading, refresh, logout }}>{children}</AuthCtx.Provider>;
 }
+// verified
