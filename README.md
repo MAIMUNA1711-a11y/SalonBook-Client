@@ -21,3 +21,11 @@ Next.js 14 (App Router), TypeScript, Tailwind CSS, Better Auth (+ JWT plugin), M
 
 ## Required environment variables (names only)
 MONGODB_URI, MONGODB_DB, BETTER_AUTH_SECRET, BETTER_AUTH_URL, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, NEXT_PUBLIC_API_URL, NEXT_PUBLIC_IMGBB_API_KEY, NEXT_PUBLIC_DEMO_ADMIN_EMAIL, NEXT_PUBLIC_DEMO_ADMIN_PASSWORD
+
+## Installation
+npm install
+cp .env.example .env.local
+
+## Run locally
+npm run dev
+Start the server repo too (default http://localhost:5000).
