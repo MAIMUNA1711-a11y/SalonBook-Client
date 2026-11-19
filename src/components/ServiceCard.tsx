@@ -22,3 +22,5 @@ export default function ServiceCard({ s }: { s: Service }) {
     </article>
   );
 }
+
+// verified
